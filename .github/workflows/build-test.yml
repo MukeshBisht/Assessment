@@ -21,7 +21,8 @@ jobs:
       working-directory: ./coding/FeedImport
       run: dotnet restore
     - name: Build
+      working-directory: ./coding/FeedImport
       run: dotnet build --no-restore
     - name: Test
-      working-directory: ./Import.Core.Tests
+      working-directory: ./coding/FeedImport
       run: dotnet test --no-build --verbosity normal
