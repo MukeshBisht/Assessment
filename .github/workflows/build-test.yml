@@ -22,4 +22,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
+      working-directory: ./Import.Core.Tests
       run: dotnet test --no-build --verbosity normal
