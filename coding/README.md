@@ -1,3 +1,5 @@
+[![.NET](https://github.com/MukeshBisht/Assessment/actions/workflows/build-test.yml/badge.svg)](https://github.com/MukeshBisht/Assessment/actions/workflows/build-test.yml)
+
 ## SaaS Products Import
 
 We update our inventory of SaaS products from several sources.  Each source provides its content to us in a different format.  Write a command line script to import the products.
