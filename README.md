@@ -20,10 +20,12 @@ cd .\Assessment\coding\FeedImport
 ```
 dotnet restore
 ```
-- Test
+- Test [![.NET](https://github.com/MukeshBisht/Assessment/actions/workflows/build-test.yml/badge.svg)](https://github.com/MukeshBisht/Assessment/actions/workflows/build-test.yml)
 ```
 dotnet test
 ```
+
+
 - Run
 ```
 cd ./Import
