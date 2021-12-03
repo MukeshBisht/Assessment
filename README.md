@@ -1,7 +1,41 @@
-## Software Engineer Home Assignment
+# Software Engineer Home Assignment
 
-This assignment is split in two part: coding and database. Please, proceed to a corresponding folder to read detailed instructions. 
+## Library used
+<a href="https://github.com/commandlineparser/commandline/wiki" >CommandLineParser</a>
+</br>
+<a href="https://github.com/moq/moq4" >Moq</a>
 
-We estimated for it to take approximately 2-3 hours. Once completed, share your results in a public git repository (Github, Gitlab, Bitbucket).
+## How to use
 
-Good luck!
+- Install <a href="https://dotnet.microsoft.com/download/dotnet/5.0" >.NET 5</a> SDK
+- Clone Repository
+```
+git clone https://github.com/MukeshBisht/Assessment.git
+```
+- Change working directory to project
+```
+cd .\Assessment\coding\FeedImport
+```
+- Restore
+```
+dotnet restore
+```
+- Test
+```
+dotnet test
+```
+- Run
+```
+cd ./Import
+dotnet run 
+dotnet run capterra .\feed-products\capterra.yaml
+```
+
+## Where to find the code
+- Directory <b>Assessment\coding\FeedImport</b> has dotnet project solution file 
+- <a href="https://github.com/MukeshBisht/Assessment/tree/main/database"> SQL Test Solution </a>
+
+## Scope of work
+- Separate projects for feed modules (CapterraFeed, SoftwareAdvice).
+- Separate infrastucture project for database.
+- Functional tests for import command line project.
