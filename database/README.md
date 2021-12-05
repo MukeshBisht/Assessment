@@ -64,7 +64,11 @@ having	premium > 0;
 4. How much revenue has each active vendor made in 2013
 - Please return at least: first_name, last_name, currency, revenue
 ```SQL
-FROM users usr
+SELECT	usr.first_name,
+	usr.last_name,
+	user_revenue.currency,
+	user_revenue.revenue
+FROM	users usr
 JOIN (
     SELECT	u.id as user_id,
             	c.currency,
